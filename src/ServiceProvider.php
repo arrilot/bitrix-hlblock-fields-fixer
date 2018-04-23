@@ -4,9 +4,9 @@ namespace Arrilot\BitrixHLBlockFieldsFixer;
 
 use Bitrix\Main\EventManager;
 
-class Provider
+class ServiceProvider
 {
-    public function register($config = [])
+    public static function register($config = [])
     {
         foreach ($config as $bitrixField => $mysqlField) {
             Fixer::setNewFieldType($bitrixField, $mysqlField);
