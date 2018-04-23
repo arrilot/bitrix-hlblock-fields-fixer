@@ -25,11 +25,13 @@ Arrilot\BitrixHLBlockFieldsFixer\Provider::register();
 
 По-умолчанию, пакет производит следующие преобразования:
 
-// тип поля => тип столбца в mysql
-'string' => 'varchar(255)',
-'string_formatted' => 'varchar(255)',
-'text' => 'text',
-'boolean' => 'tinyint(1)',
+```php
+//  тип поля => тип столбца в mysql
+// 'string' => 'varchar(255)',
+// 'string_formatted' => 'varchar(255)',
+// 'text' => 'text',
+// 'boolean' => 'tinyint(1)',
+```
 
 string - строка
 string_formatted - шаблон
