@@ -1,6 +1,11 @@
 [![Latest Stable Version](https://poser.pugx.org/arrilot/bitrix-hlblock-fields-fixer/v/stable.svg)](https://packagist.org/packages/arrilot/bitrix-hlblock-fields-fixer/)
 [![Total Downloads](https://img.shields.io/packagist/dt/arrilot/bitrix-hlblock-fields-fixer.svg?style=flat)](https://packagist.org/packages/Arrilot/bitrix-hlblock-fields-fixer)
 
+# Данный пакет больше активно не поддерживается
+
+Причина - мы больше не используем Битрикс в своих проектах.
+Если вам интересен этот проект и вы хотите заняться его поддержкой - форкните его и создайте Issue в данном репозитории чтобы мы поместили здесь ссылку на форк.
+
 # Модификация полей создаваемых модулем highloadblock
 
 ## Введение
